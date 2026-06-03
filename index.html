@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>صفحتي الشخصية</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="profile-header">
+      <img src="avatar.svg" alt="صورة شخصية" class="profile-image" />
+      <div>
+        <h1>مرحباً بك في صفحتي</h1>
+        <p>أنا مطور مهتم بإنشاء مواقع وتطبيقات بسيطة وجذابة. أحب تعلم التقنيات الجديدة وتحويل الأفكار إلى مشاريع عملية.</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>من أنا</h2>
+      <p>أنا مطور مهتم بإنشاء مواقع وتطبيقات بسيطة وجذابة. أحب تعلم التقنيات الجديدة وتحويل الأفكار إلى مشاريع عملية.</p>
+    </section>
+
+    <section class="card">
+      <h2>أعمالي</h2>
+      <div class="project-list">
+        <article class="project-item">
+          <h3>موقع تعريفي شخصي</h3>
+          <p>صفحة بسيطة تعرض المعلومات الشخصية، المهارات، وطريقة الاتصال.</p>
+        </article>
+        <article class="project-item">
+          <h3>تطبيق تواصل</h3>
+          <p>نموذج اتصال بنفس التصميم يسمح للمستخدمين بإرسال رسائل مباشرة.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>مهاراتي</h2>
+      <ul class="skills-list">
+        <li>HTML / CSS</li>
+        <li>JavaScript</li>
+        <li>تصميم واجهة المستخدم</li>
+        <li>تحسين تجربة المستخدم</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>التواصل الاجتماعي</h2>
+      <div class="social-links">
+        <a href="#" target="_blank" rel="noopener">GitHub</a>
+        <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="#" target="_blank" rel="noopener">Twitter</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>الأصدقاء</h2>
+      <div class="friends-grid">
+        <article class="friend-card">
+          <div class="friend-avatar">ع</div>
+          <div>
+            <h3>علي</h3>
+            <p>مصمم واجهات وخبير تجربة المستخدم.</p>
+          </div>
+        </article>
+        <article class="friend-card">
+          <div class="friend-avatar">م</div>
+          <div>
+            <h3>مازن</h3>
+            <p>مطور Full Stack يحب بناء أدوات الويب.</p>
+          </div>
+        </article>
+        <article class="friend-card">
+          <div class="friend-avatar">س</div>
+          <div>
+            <h3>سارة</h3>
+            <p>كاتبة محتوى تقنية ومحبة للتواصل.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>المنتجات</h2>
+      <div class="product-grid">
+        <article class="product-card">
+          <h3>منتج ذكي</h3>
+          <p>أداة رقمية تساعدك على تنظيم المهام وتحسين الإنتاجية.</p>
+        </article>
+        <article class="product-card">
+          <h3>تطبيق تعليمي</h3>
+          <p>منصة تفاعلية لتعلم البرمجة بطريقة سلسة وممتعة.</p>
+        </article>
+        <article class="product-card">
+          <h3>خدمة تصميم</h3>
+          <p>حلول تصميم واجهات مستخدم مخصصة للمشاريع الصغيرة والمتوسطة.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>عن المشروع</h2>
+      <p>يمكنك تعديل هذا المحتوى بسهولة لإضافة معلوماتك أو نصوصك الخاصة.</p>
+    </section>
+
+    <section class="card">
+      <h2>تفاعل بسيط</h2>
+      <button id="actionButton">اضغط هنا</button>
+      <p id="message"></p>
+    </section>
+
+    <section class="card">
+      <h2>اتصل بي</h2>
+      <form id="contactForm">
+        <label for="name">الاسم</label>
+        <input type="text" id="name" name="name" placeholder="اكتب اسمك" required />
+
+        <label for="email">البريد الإلكتروني</label>
+        <input type="email" id="email" name="email" placeholder="example@mail.com" required />
+
+        <label for="messageInput">الرسالة</label>
+        <textarea id="messageInput" name="message" rows="5" placeholder="اكتب رسالتك هنا" required></textarea>
+
+        <button type="submit">إرسال</button>
+        <p id="formStatus"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>تم الإنشاء بواسطة GitHub Copilot</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
